@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>508</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="labelNom">
+     <property name="text">
+      <string>Nom</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="txtNom"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelPreu">
+     <property name="text">
+      <string>Preu</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="txtPreu"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelCategoria">
+     <property name="text">
+      <string>Categoria</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="txtCategoria"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnAfegir">
+     <property name="text">
+      <string>Afegir</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnModificar">
+     <property name="text">
+      <string>Modificar</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnEliminar">
+     <property name="text">
+      <string>Eliminar</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Nom</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Preu</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Categoria</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
